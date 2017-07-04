@@ -97,7 +97,7 @@ namespace LibraryAgain
                         // those comments into the generated docs and UI. You can enable this by providing the path to one or
                         // more Xml comment files.
                         //
-                        c.IncludeXmlComments(string.Format(@"{0}\bin\LibraryAgain.xml", System.AppDomain.CurrentDomain.BaseDirectory));
+                        //c.IncludeXmlComments(string.Format(@"{0}\bin\LibraryAgain.xml", System.AppDomain.CurrentDomain.BaseDirectory));
 
                         // Swashbuckle makes a best attempt at generating Swagger compliant JSON schemas for the various types
                         // exposed in your API. However, there may be occasions when more control of the output is needed.
